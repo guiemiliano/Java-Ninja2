@@ -17,6 +17,30 @@ public abstract class Ninja {
     public Ninja() {
     }
 
+    public String getAldeia() {
+        return aldeia;
+    }
+
+    public void setAldeia(String aldeia) {
+        this.aldeia = aldeia;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getNumeroDeMissoesConcluidas() {
+        return numeroDeMissoesConcluidas;
+    }
+
+    public void setNumeroDeMissoesConcluidas(int numeroDeMissoesConcluidas) {
+        this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+    }
+
     public Ninja(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, double altura) {
         this.nome = nome;
         this.aldeia = aldeia;

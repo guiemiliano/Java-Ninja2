@@ -62,5 +62,7 @@ public class Main {
         System.out.println("Tamanho da lista " + ninjasList.size());
         System.out.println("Ninja list = "+ninjasList);
 
+        System.out.println(ninjasList);
+
     }
 }

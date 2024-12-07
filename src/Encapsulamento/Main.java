@@ -32,7 +32,7 @@ public class Main {
         ninjas[1] = "Kakashi Hatake";
         ninjas[2] = "Tobirama Senju";
 
-        System.out.println("ninjas = " + ninjas[0]);
+        //System.out.println("ninjas = " + ninjas[0]);
 
 
         //Listas (MAIS UTILIZADAS) é importado do java.util
@@ -42,6 +42,25 @@ public class Main {
         //Os computadores atuais são bem melhores em desempenho e tem mais memória
 
         List<String> ninjasList = new ArrayList<>();
+
+        //adicionando elementos
+        ninjasList.add("Hinata Hyuga");
+        ninjasList.add("Neji Hyuga");
+        ninjasList.add("Rock Lee");
+        ninjasList.add("Naruto Uzumaki");
+
+        //Removendo elementos
+        //Posso remover pelo index ou pelo nome, ou valor exato
+        ninjasList.remove(2);
+        ninjasList.remove("Hinata Hyuga");
+
+        //Trocando elementos
+        //Troquei o naruto pelo boruto, visto que já tinha removido os outros 2 elementos
+        ninjasList.set(1, "Boruto Uzumaki");
+
+        //ver o tamanho da lista
+        System.out.println("Tamanho da lista " + ninjasList.size());
+        System.out.println("Ninja list = "+ninjasList);
 
     }
 }

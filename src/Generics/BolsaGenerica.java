@@ -8,27 +8,29 @@ import java.util.List;
     <T> o T é apenas um símbolo, mas é boa prática usá-lo
  */
 public class BolsaGenerica<T>{
-    private List<T> equipamentos;
+    private List<T> equipamento;
 
     public BolsaGenerica() {
-        this.equipamentos = new ArrayList<>();
+        this.equipamento = new ArrayList<>();
     }
 
-    //Colocar equipamentos genéricos
+    //Método para add equipamento
+
     public void adicionarEquipamentos(T equipamento){
-        equipamentos.add(equipamento);
+        this.equipamento.add(equipamento);
     }
 
-    public List<T> getEquipamentos() {
-        return equipamentos;
+    public List<T> getEquipamento() {
+        return equipamento;
     }
 
-    public void setEquipamentos(List<T> equipamentos) {
-        this.equipamentos = equipamentos;
+    public void setEquipamento(List<T> equipamento) {
+        this.equipamento = equipamento;
     }
 
     @Override
     public String toString() {
-        return "Bolsa de Equipamentos: " + equipamentos.toString();
+        return "Bolsa genérica: "+ equipamento;
+
     }
 }

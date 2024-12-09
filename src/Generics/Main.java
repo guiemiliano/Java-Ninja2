@@ -17,7 +17,7 @@ public class Main {
         //Crio objeto BolsaGenerica que vai receber a lista de objetos genéricos EquipamentosNinja
         BolsaGenerica<EquipamentosNinja> bolsaGenerica = new BolsaGenerica<>();
 
-        //Usando o método de adicionarEquipamentos da calsse bolsaGenerica
+        //Usando o método de adicionarEquipamentos da classe bolsaGenerica
         bolsaGenerica.adicionarEquipamentos(kunai);
         bolsaGenerica.adicionarEquipamentos(shuriken);
         bolsaGenerica.adicionarEquipamentos(pergaminho);

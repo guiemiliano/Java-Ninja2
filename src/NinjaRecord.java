@@ -8,7 +8,13 @@
  */
 public record NinjaRecord(String nome, String email, int numero) {
 
+    public String emailEmCaixaAlta(){
+        return email.toUpperCase();
+    }
+
 }
+
+
 
 //Todos os atributos são "final" por padrão
 //Records não tem Setter, não da para alterar

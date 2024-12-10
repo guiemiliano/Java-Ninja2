@@ -8,7 +8,7 @@ package Generics;
  */
 public class Main {
     public static void main(String[] args) {
-        //Criando Equipamentos genéricos com seu nome no construtor
+        //Criando (Objetos) Equipamentos genéricos com seu nome no construtor
         EquipamentosNinja kunai = new EquipamentosNinja("Kunai");
         EquipamentosNinja shuriken = new EquipamentosNinja("Shuriken");
         EquipamentosNinja papelBomba = new EquipamentosNinja("Papel Bomba");

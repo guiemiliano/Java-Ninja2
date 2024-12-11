@@ -30,18 +30,17 @@ public class Stacks {
         //size() - Verifica o tamanho / quantidade de elementos da pilha
 
         Stack<String> stackNinja = new Stack<>();
-        stackNinja.push("Naruto Uzumaki");
-        stackNinja.push("Sasuke Uchiha");
-        stackNinja.push("Sakura Haruno");
+//        stackNinja.push("Naruto Uzumaki");
+//        stackNinja.push("Sasuke Uchiha");
+//        stackNinja.push("Sakura Haruno");
 
 
-        String pilha = stackNinja.peek();
+
         stackNinja.pop();
 
-        int tamanhoStack = stackNinja.size();
 
-        System.out.println(pilha);
-        System.out.println(tamanhoStack);
+
+
 
 
 
